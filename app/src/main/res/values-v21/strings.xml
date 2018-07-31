@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="full_name_message">Enter your Full Name here...</string>
+    <string name="last_name_message">Enter your Last Name here...</string>
+    <string name="contact_number_message">Enter your Contact Number here...</string>
+    <string name="email_message">Enter your E-Mail id here...</string>
+    <string name="select_plan_message">Select Plan</string>
+</resources>

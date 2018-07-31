@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_register"
+        android:src="@drawable/ic_register_black_24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_registerDetails"
+        android:layout_below="@id/iv_register"
+        android:layout_margin="5dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_fullName"
+            android:hint="@string/full_name_message"
+            android:textStyle="italic"
+            android:layout_margin="5dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_surname"
+            android:layout_below="@id/et_fullName"
+            android:layout_margin="5dp"
+            android:hint="@string/last_name_message"
+            android:textStyle="italic"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_mobileNo."
+            android:layout_below="@id/et_surname"
+            android:layout_margin="5dp"
+            android:hint="@string/contact_number_message"
+            android:textStyle="italic"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_emailId"
+            android:layout_below="@id/et_mobileNo."
+            android:hint="@string/email_message"
+            android:layout_margin="5dp"
+            android:textStyle="italic"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_next"
+        android:src="@drawable/ic_next_button_filled_blue_24dp"
+        android:layout_below="@id/rl_registerDetails"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="2dp"
+        />
+
+</RelativeLayout>

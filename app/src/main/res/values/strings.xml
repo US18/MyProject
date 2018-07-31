@@ -7,4 +7,9 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="full_name_message">Enter your Full Name here...</string>
+    <string name="last_name_message">Enter your Last Name here...</string>
+    <string name="contact_number_message">Enter your Contact Number here...</string>
+    <string name="email_message">Enter your E-Mail id here...</string>
+    <string name="select_plan_message">Select Plan</string>
 </resources>
