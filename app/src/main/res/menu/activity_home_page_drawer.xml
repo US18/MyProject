@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homePage"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_category_black_24dp"
+            android:title="Choose by Category" />
+        <item
+            android:id="@+id/nav_plans"
+            android:icon="@drawable/ic_plans_black_24dp"
+            android:title="Plans" />
+    </group>
+
+    <item
+        android:title="Account">
+        <menu>
+
+            <item
+                android:id="@+id/nav_yourOrders"
+                android:icon="@drawable/ic_orders_black_24dp"
+                android:title="Your Orders" />
+            <item
+                android:id="@+id/nav_wishlist"
+                android:icon="@drawable/ic_wishlist_black_24dp"
+                android:title="Your Wishlist" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_account_settings_black_24dp"
+                android:title="Settings" />
+        </menu>
+
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_askLibrarian"
+                android:icon="@drawable/ic_ask_librarian_black_24dp"
+                android:title="Ask Librarian" />
+
+            <item
+                android:id="@+id/nav_blogs"
+                android:icon="@drawable/ic_blogs_black_24dp"
+                android:title="Blogs" />
+
+            <item
+                android:id="@+id/nav_faqs"
+                android:icon="@drawable/ic_faqs_black_24dp"
+                android:title="FAQ" />
+
+            <item
+                android:id="@+id/nav_contactUs"
+                android:icon="@drawable/ic_contact_us_black_24dp"
+                android:title="Contact Us" />
+
+            <item
+                android:id="@+id/nav_aboutUs"
+                android:icon="@drawable/ic_about_us_black_24dp"
+                android:title="About Us" />
+
+            <item
+                android:id="@+id/nav_donate"
+                android:icon="@drawable/ic_donate_black_24dp"
+                android:title="Donate" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
