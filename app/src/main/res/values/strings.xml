@@ -12,4 +12,5 @@
     <string name="contact_number_message">Enter your Contact Number here...</string>
     <string name="email_message">Enter your E-Mail id here...</string>
     <string name="select_plan_message">Select Plan</string>
+    <string name="cost">₹    300</string>
 </resources>
