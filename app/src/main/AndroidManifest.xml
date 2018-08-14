@@ -26,7 +26,13 @@
         <activity
             android:name=".RegisterActivity"
             android:label="Register" />
-        <activity android:name=".NextRegisterActivity"></activity>
+        <activity android:name=".NextRegisterActivity" />
+        <activity android:name=".OrdersPage" />
+        <activity android:name=".Profile" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".Orders"
+            android:label="Order History"
+            />
     </application>
 
 </manifest>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrdersPage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_orderMessage"
+        android:text="@string/order_message"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textColor="#006018"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/view1"
+        android:background="#dfdfdf"
+        android:layout_below="@id/tv_orderMessage"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_image"
+        android:layout_below="@id/view1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/categoryimage"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:id="@+id/view2"
+        android:layout_below="@+id/iv_image"
+        android:layout_centerHorizontal="true"
+        android:background="#dfdfdf"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_orderedBookName"
+        android:text="Book Name"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="120dp" />
+
+    <TextView
+        android:id="@+id/planName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tv_orderedBookName"
+        android:layout_marginEnd="120dp"
+        android:text="Plan Name"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:layout_marginRight="120dp"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shippingMsg"
+        android:layout_below="@id/tv_orderedBookName"
+        android:text="@string/shipMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"
+        android:textStyle="bold|italic"
+        />
+
+    <TextView
+        android:id="@+id/noteMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:text="Note: Book will be delivered in 48 hours."
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="For Support Call: +91 XXXXXXXXXX"
+        />
+
+
+</RelativeLayout>

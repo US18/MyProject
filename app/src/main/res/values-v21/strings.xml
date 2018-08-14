@@ -6,4 +6,6 @@
     <string name="email_message">Enter your E-Mail id here...</string>
     <string name="select_plan_message">Select Plan</string>
     <string name="cost">₹ 300</string>
+    <string name="order_message">Thanks for order the Book</string>
+    <string name="shipMessage">Shipping Next Week (exited?)</string>
 </resources>
